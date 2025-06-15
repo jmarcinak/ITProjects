@@ -5,7 +5,7 @@
 
 ---
 
-## 🔧 What I Did
+## What I Did
 
 - Created a Resource Group, Virtual Network (VNet), and subnet
 - Configured Network Security Groups (NSG) to simulate a firewall
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Microsoft Azure Portal
 - Windows Server 2019 Datacenter
@@ -24,7 +24,7 @@
 
 ---
 
-## 📸 Screenshots Captured
+## Screenshots Captured
 
 - Resource Group
 - VNet & Subnet with IP range
@@ -36,7 +36,7 @@
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 Secure-Azure-VM-Infrastructure/
 ├── Screenshots/
