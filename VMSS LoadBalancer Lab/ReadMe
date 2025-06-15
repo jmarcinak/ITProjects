@@ -6,7 +6,7 @@
 
 ---
 
-## 🔧 What I Did
+## What I Did
 
 - Created a Resource Group and Virtual Network with a subnet.
 - Deployed a VM Scale Set (Windows Server 2019) with 2 instances.
@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Microsoft Azure Portal
 - Windows Server 2019 Datacenter
@@ -25,7 +25,7 @@
 
 ---
 
-## 📸 Screenshots Captured
+## Screenshots Captured
 
 - Load Balancer Overview
 - Backend Pool
@@ -43,7 +43,7 @@
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 VMSS-Load-Balancer-Lab/  
 ├── Screenshots/  
