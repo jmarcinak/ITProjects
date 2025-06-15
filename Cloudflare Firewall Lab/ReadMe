@@ -1,0 +1,52 @@
+# Cloudflare Firewall Simulation Lab
+
+- Deployed a static website using Cloudflare Pages with a custom domain.
+- Configured DNS records and HTTPS with Cloudflare proxy.
+- Implemented IP blocking, bot protections, honeypot trap, and rate limiting using Cloudflare’s free-tier firewall features.
+- Verified rules using browser access and terminal tools like curl and PowerShell.
+
+---
+
+## 🔧 What I Did
+
+- Purchased a custom domain (jmarciniak.org) through Cloudflare Registrar and configured DNS (CNAME + proxied).
+- Deployed a static HTML site using Cloudflare Pages.
+- Enabled Bot Fight Mode to block known malicious bots.
+- Created a WAF rule to block specific IP addresses and confirmed block in browser.
+- Created a WAF rule to block the curl User-Agent and verified via terminal.
+- Deployed a honeypot trap page (/bots) and blocked access using URI path-based rule.
+- Created a rate limiting rule to block traffic exceeding 1 request per 10 seconds.
+
+---
+
+## 🛠️ Tools Used
+
+-Cloudflare Pages
+-Cloudflare DNS & WAF
+-Static HTML
+-PowerShell & curl
+-Git & GitHub
+
+---
+
+## 📸 Screenshots Captured
+
+- DNS Record Configuration
+- Bot Fight Mode Enabled
+- WAF Rule: Block IP
+- Blocked IP Confirmation in Browser
+- WAF Rule: Block curl User-Agent
+- curl Block Confirmation (403)
+- WAF Rule: Honeypot Trap /bots
+- Honeypot Block Confirmation (403)
+- Rate Limiting Rule Setup
+
+> You’ll find these screenshots inside the `/screenshots` folder.
+
+---
+
+## 📁 Folder Structure
+
+Cloudflare-Firewall-Lab/
+├── screenshots/
+└── README.md
