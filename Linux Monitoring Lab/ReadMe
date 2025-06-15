@@ -1,0 +1,46 @@
+# Linux Monitoring Lab
+
+- Installed Prometheus and Node Exporter on an Ubuntu Server VM.
+- Configured Prometheus to collect system metrics including CPU, memory, disk, and uptime.
+- Connected Prometheus to Grafana and imported the Node Exporter Full dashboard.
+- Visualized real-time system performance metrics through custom panels in Grafana.
+
+---
+
+## What I Did
+
+- Downloaded and extracted Prometheus and Node Exporter binaries on Ubuntu.
+- Launched Prometheus manually using a YAML config file.
+- Verified Prometheus startup and confirmed it was listening on port 9090.
+- Confirmed Node Exporter was actively serving metrics on port 9100.
+- Configured Prometheus as a data source within Grafana.
+- Imported the Node Exporter Full dashboard using its Grafana ID.
+- Visualized CPU usage, memory consumption, disk space, network traffic, and system uptime.
+
+---
+
+## Tools Used
+
+- Prometheus
+- Node Exporter
+- Grafana
+- Ubuntu Server (CLI)
+- curl
+
+---
+
+## Screenshots Captured
+
+- Prometheus Running in Terminal
+- Prometheus Configured as Grafana Data Source
+- Node Exporter Dashboard in Grafana
+
+> You’ll find these screenshots inside the `/screenshots` folder.
+
+---
+
+## 📁 Folder Structure
+
+linux-monitoring-lab/  
+├── screenshots/  
+└── README.md
